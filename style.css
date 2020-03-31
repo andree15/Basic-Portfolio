@@ -6,10 +6,9 @@ body{
 
 
 #header{
+    position: fixed;
     background-color: #f1f1f1;
     width: 100%;
-    margin
-    text-align: center;
     line-height: 10px;
     font-size: 20px;
     display: flex;
@@ -18,31 +17,30 @@ body{
 
 #name{
     font-size: 30px;
-    background-color: lightgrey;
+    background-color: teal;
     width: 180px;
     padding: 50px;
-    margin: 20px 20px 0px 288px;
-
+    margin: 40px 20px 0px 288px;
+    position: relative;  
+    text-align: center;
 
 }
 
 .links{
-margin-right: 40px;
-position: relative;
-
+    margin-right: 40px;
+    margin-top: 90px;
+    margin-left:200px;
 }
 
 img{
-    width: 60px;
-    height: auto
+    width: 120px;
+    height: auto;
+    float: left;
 }
-
-
-#main{
-    margin: 0px;
-    }
-
-#about-me{
+#main-head{
+    font-size: 40;
+}
+#main-content{
     background:white;
     position: fixed;
     top: 450px;   
@@ -52,9 +50,11 @@ img{
     width: 960px;
     height: 480px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 30;
+    font-size: 20px;
 }
 
-#text-header{
-    font-size: ;
+footer{
+    width: 100%;
+    height: 96px;
+    background-color: white;
 }
