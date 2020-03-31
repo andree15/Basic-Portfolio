@@ -1,0 +1,42 @@
+body{
+    z-index: 0;
+    background-image: url(./././assets/images/45degreee_fabric_@2X.png);
+    width: 960px;
+    margin: 10px 500px 0px 500px;
+    padding: 10px 10px 10px 10px;
+}
+
+#main{
+    z-index: 1;
+    margin: 10px 500px 0px 500px;
+    padding: 10px 10px 10px 10px;
+}
+
+#header{
+
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+#name{
+    font-size: 30px;
+}
+
+.links{
+}
+
+#about-me{
+    z-index: 1;
+    width: 960;
+    height: 96px;
+    background: turquoise;
+    display: flex;
+    flex-flow: wrap;
+
+}
