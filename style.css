@@ -1,42 +1,60 @@
 body{
-    z-index: 0;
     background-image: url(./././assets/images/45degreee_fabric_@2X.png);
-    width: 960px;
     margin: 10px 500px 0px 500px;
     padding: 10px 10px 10px 10px;
 }
 
-#main{
-    z-index: 1;
-    margin: 10px 500px 0px 500px;
-    padding: 10px 10px 10px 10px;
-}
 
 #header{
-
     background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
+    width: 100%;
+    margin
     text-align: center;
     line-height: 10px;
-    font-size: 12px;
+    font-size: 20px;
     display: flex;
-    justify-content: center;
+
 }
 
 #name{
     font-size: 30px;
+    background-color: lightgrey;
+    width: 180px;
+    padding: 50px;
+    margin: 20px 20px 0px 288px;
+
+
 }
 
 .links{
+margin-right: 40px;
+position: relative;
+
 }
 
-#about-me{
-    z-index: 1;
-    width: 960;
-    height: 96px;
-    background: turquoise;
-    display: flex;
-    flex-flow: wrap;
+img{
+    width: 60px;
+    height: auto
+}
 
+
+#main{
+    margin: 0px;
+    }
+
+#about-me{
+    background:white;
+    position: fixed;
+    top: 450px;   
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -480px;;
+    width: 960px;
+    height: 480px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 30;
+}
+
+#text-header{
+    font-size: ;
 }
