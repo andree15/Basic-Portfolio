@@ -1,35 +1,41 @@
-body{
-    background-image: url(./././assets/images/45degreee_fabric_@2X.png);
-    margin: 10px 500px 0px 500px;
-    padding: 10px 10px 10px 10px;
-}
 
 
 #header{
-    position: fixed;
-    background-color: #f1f1f1;
-    width: 100%;
-    line-height: 10px;
-    font-size: 20px;
+    background-color: #ffffff;
     display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 3px;
+    border-color: #cccccc;
 
 }
 
+body{
+    background-image: url(./././assets/images/45degreee_fabric_@2X.png);
+    height: 100%;
+    margin: 0;
+}
+
 #name{
-    font-size: 30px;
-    background-color: teal;
+    background-color: #4aaaa5;
     width: 180px;
-    padding: 50px;
+    padding: 25px;
     margin: 40px 20px 0px 288px;
-    position: relative;  
-    text-align: center;
+    text-align-last: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 30px;
+    font-size: 30px;
 
 }
 
 .links{
+    float: right;
+    font-size: 20px;
     margin-right: 40px;
     margin-top: 90px;
-    margin-left:200px;
+    margin-left:300px;
+
 }
 
 img{
@@ -39,22 +45,31 @@ img{
 }
 #main-head{
     font-size: 40;
+    text-align: left;
 }
 #main-content{
     background:white;
-    position: fixed;
-    top: 450px;   
-    left: 50%;
-    margin-top: -300px;
-    margin-left: -480px;;
-    width: 960px;
-    height: 480px;
+    display: inline-block;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
+    width: 960px;
+    margin: 0px 25% -50px 25%;
+    min-height: 100%;
 }
 
-footer{
+#footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: flex;
+    flex-direction: column;
+    background: #666666;
     width: 100%;
-    height: 96px;
-    background-color: white;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
