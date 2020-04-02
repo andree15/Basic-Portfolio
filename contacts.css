@@ -8,7 +8,6 @@
     border-color: #cccccc;
 
 }
-
 body{
     background-image: url(./././assets/images/45degreee_fabric_@2X.png);
     height: 100%;
@@ -36,16 +35,6 @@ body{
 
 }
 
-img{
-    width: 120px;
-    height: auto;
-    float: left;
-}
-
-#main-head{
-    font-size: 40;
-    text-align: left;
-}
 #main-content{
     background:white;
     display: inline-block;
