@@ -3,10 +3,8 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: flex;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
     border: 3px;
-    border-color: #cccccc;
+    border-bottom: 2px #cccccc;
 
 }
 
@@ -16,7 +14,7 @@ body{
     margin: 0;
 }
 
-#contact{
+#name{
     background-color: #4aaaa5;
     width: 200px;
     padding: 25px;
@@ -25,6 +23,7 @@ body{
     font-family: 'Georgia', Times, Times New Roman, serif;
     line-height: 30px;
     font-size: 30px;
+    border-color: #dddddd;
 }
 
 
@@ -32,10 +31,18 @@ body{
     float: right;
     font-size: 20px;
     margin-right: 40px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left:300px;
 
 }
+
+
+hr{ 
+    height: 3px;
+    color: #dddddd;
+    background-color:#ddd;
+    border: none;
+  }
 
 #main-content{
     background:white;
@@ -44,16 +51,45 @@ body{
     font-size: 20px;
     width: 960px;
     margin: 20px 25% -50px 25%;
+    padding: 20px 25px;
+    border: 1px solid #dddddd;
     min-height: 100%;
 }
 
-input[type="text"] {
-    width: 200px;
+#main-head{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4aaaa5;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+input[type="text"] {
+    width: 954px;
+    margin: 10px 0px;
+}
+
+
+
+
 #message{
-    width: 300px;
-    height: 100px;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    background-color: #f8f8f8;
+    resize: vertical;
+}
+
+#btn{
+	background-color:#4aaaa5;
+	display:inline-block;
+	color:white;
+    font-size:20px;
+    margin: 10px;
+    padding:9px 20px;
 }
 
 #footer {

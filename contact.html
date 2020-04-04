@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact</title>
-        <link rel="stylesheet" href="contacts.css">
-        <link rel="stylesheet" href="reset.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
 
-    <body>
-        <div id=header>
-            <div id="contact"><p>Contact</p></div>
-            <div class="links"><p>About</p></div>
-            <div class="links"><p>Portfolio</p></div>
-            <div class="links"><p>Contact</p></div>
-        </div>
-
-        <div>
-            <div id=main-content>
-                <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-
-                    <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email">
-
-                    <p><label for="message">Message:</label><br></p>
-                    <input type="text" id="message" name="message"><br>
-                </form>
+<body>
+    <containter id=header>
+            <div id="name">
+                <p>Andy Edstrom</p>
             </div>
-            <footer id="footer">©Copyright</footer>
+            <div class="links">
+                <p>About</p>
+            </div>
+            <div class="links">
+                <p>Portfolio</p>
+            </div>
+            <div class="links">
+                <p>Contact</p>
+            </div>
+    </containter>
+
+    <div>
+        <div id=main-content>
+            <div id="main-head">Contact</div>
+            <hr>
+
+            <form>
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email">
+
+                <p><label for="message">Message:</label><br></p>
+                <textarea name="message" id="message" cols="30" rows="10" type="text"></textarea>
+                <div id="btn">Submit</div>
+            </form>
         </div>
+        <footer id="footer">©Copyright Andy Edstrom 2020</footer>
+
+    </div>
 
 
 
 
 
-    </body>
+</body>
+
 </html>

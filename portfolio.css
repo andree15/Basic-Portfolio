@@ -19,18 +19,19 @@ body{
     background-color: #4aaaa5;
     width: 200px;
     padding: 25px;
-    margin: 40px 20px 0px 288px;
+    margin: 0px 20px 0px 288px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     line-height: 30px;
     font-size: 30px;
+    border-color: #dddddd;
 }
 
 .links{
     float: right;
     font-size: 20px;
     margin-right: 40px;
-    margin-top: 90px;
+    margin-top: 0px;
     margin-left:300px;
 
 }
@@ -47,6 +48,8 @@ body{
     font-size: 20px;
     width: 960px;
     margin: 20px 25% -50px 25%;
+    padding: 20px 25px;
+    border: 1px solid #dddddd;
     min-height: 100%;
 }
 
