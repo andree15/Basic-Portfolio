@@ -1,25 +1,29 @@
-body{
-    background-image: url(./././assets/images/45degreee_fabric_@2X.png);
-    height: 100%;
-    margin: 0;
-}
-
 #header{
+    width: 2000px;
     background-color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: flex;
-    width: 100%;
-    margin: 0px;
+    flex-wrap: wrap;
+    margin: 0 auto;
     padding: 0px;
     border: 3px;
     border-color: #cccccc;
+    overflow: visible;
+    float: left;
+}
+
+body{
+    background-image: url(./././assets/images/45degreee_fabric_@2X.png);
+    height: 100%;
+    width: 100%;
 }
 
 #name{
     background-color: #4aaaa5;
+    color: white;
     width: 200px;
     padding: 25px;
-    margin: 0px 20px 0px 288px;
+    margin: 0px 25% 0px 23%;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     line-height: 30px;
@@ -28,19 +32,24 @@ body{
 }
 
 .links{
-    float: right;
+    float: left;
     font-size: 20px;
     margin-right: 40px;
-    margin-top: 0px;
-    margin-left:300px;
-
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    color: #777777;
 }
 
-#main-head{
-    font-size: 40;
-    text-align: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
+hr{ 
+    height: 3px;
+    color: #dddddd;
+    background-color:#ddd;
+    border: none;
+    margin: 10px 0px 10px 0px;
+  }
+
 #main-content{
     background:white;
     display: inline-block;
@@ -51,6 +60,20 @@ body{
     padding: 20px 25px;
     border: 1px solid #dddddd;
     min-height: 100%;
+}
+
+#main-head{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4aaaa5;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#websites{
+    display: flex;
+    flex-direction: row;
 }
 
 #footer {
